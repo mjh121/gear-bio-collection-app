@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="org.example.hrmsensorapp" version="1.0.0">
+    <profile name="wearable"/>
+    <ui-application appid="org.example.hrmsensorapp" exec="hrmsensorapp" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>hrmsensorapp</label>
+        <icon>basicui2.png</icon>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/mediastorage</privilege>
+        <privilege>http://tizen.org/privilege/healthinfo</privilege>
+        <privilege>http://tizen.org/privilege/internet</privilege>        
+    </privileges>
+    <feature name="http://tizen.org/feature/sensor.barometer.wakeup">true</feature>
+    <feature name="http://tizen.org/feature/network.internet">true</feature>
+    <feature name="http://tizen.org/feature/sensor.barometer">true</feature>
+    <feature name="http://tizen.org/feature/sensor.heart_rate_monitor">true</feature>
+</manifest>

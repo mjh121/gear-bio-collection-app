@@ -1,0 +1,7 @@
+# ninja log v5
+0	30	0	clean_sa	4c96bf98c7d9ab47
+30	38	0	clean	d59b6dac04fa9b5d
+3	474	0	src/main_app.o	4cc76e855e03615d
+474	773	0	hrmsensorapp	927b84dfb86475f9
+2	480	0	src/main_app.o	4cc76e855e03615d
+480	669	0	hrmsensorapp	927b84dfb86475f9
